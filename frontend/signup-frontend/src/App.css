@@ -1,0 +1,81 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 400px;
+  padding: 30px;
+}
+
+.form-box h1 {
+  text-align: center;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.required {
+  color: red;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  text-align: left;
+}
+
+.general-error {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-box button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-box button:disabled {
+  cursor: not-allowed;
+}
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 45px;
+  box-sizing: border-box;
+}
+
+.password-eye {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.password-eye:hover {
+  color: #222;
+}
